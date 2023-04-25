@@ -1,0 +1,13 @@
+targa - varchar(7) - primary key, notnull, unique
+numero_telaio - varchar(17) - notnull, unique
+marca - varchar(50) - notnull
+modello - varchar(100) - notnull
+colore - varchar(50) - null
+anno - year - notnull
+numero_proprietari - tinyint - deafult(1)
+cilindrata - smallint - notnull
+potenza - smallint - notnull
+chilometraggio - smallint - notnull
+posti - tinyint - default(4)
+prezzo - float(7, 2) - notnull
+description - text - notnull
